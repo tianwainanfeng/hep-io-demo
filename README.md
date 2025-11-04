@@ -8,15 +8,6 @@ This repository contains small demo programs that illustrate read/write common H
 
 > **Note:** RNTuple support and CI/testing are planned but currently skipped.
 
-
-## Quick links
-
-* ROOT RNTuple docs & tutorials: [https://root.cern/doc/v7](https://root.cern/doc/v7)... (see ROOT tutorials).
-* Phlex design: [https://framework-r-d.github.io/phlex-design/](https://framework-r-d.github.io/phlex-design/) (conceptual design).
-* HDF5 chunking/compression: [https://docs.hdfgroup.org/](https://docs.hdfgroup.org/)...
-
-*(See `docs/` for full links and references.)*
-
 ---
 
 ## Repo layout
@@ -41,7 +32,7 @@ hep-io-demo/
 * `src/root_ttree/ttree_demo.cpp`
 * Writes `data/ttree_demo.root` using standard `TTree` APIs.
 
-### ROOT RNTuple (C++) (skiped now)
+### ROOT RNTuple (C++) (disabled now)
 
 * `src/root_rntuple/rntuple_demo.cpp`
 * Uses ROOT RNTuple API (requires recent ROOT). See ROOT RNTuple tutorials and examples. ([ROOT][1])
@@ -63,14 +54,8 @@ hep-io-demo/
 * **Phlex** currently has design docs and is still growing; this demo maps its design onto HDF5/ROOT backends for illustration. ([framework-r-d.github.io][3])
 
 ---
-## References
+## Quick links
 
-* ROOT RNTuple docs & tutorials. ([ROOT][1])
-* Phlex conceptual design. ([framework-r-d.github.io][3])
-* HDF5 chunking/compression docs. ([The HDF Group Support Site][2])
-
-[1]: https://root.cern/doc/v632/group__tutorial__ntuple.html?utm_source=chatgpt.com "ROOT 7 ntuple tutorials"
-[2]: https://support.hdfgroup.org/documentation/hdf5-docs/advanced_topics/chunking_in_hdf5.html?utm_source=chatgpt.com "Chunking in HDF5"
-[3]: https://framework-r-d.github.io/phlex-design/?utm_source=chatgpt.com "Phlex Framework Design - GitHub Pages"
-[4]: https://root.cern/doc/v622/md_tree_ntuple_v7_doc_README.html?utm_source=chatgpt.com "RNTuple Introduction - ROOT"
-
+* ROOT RNTuple docs & tutorials: [https://root.cern/doc/v7](https://root.cern/doc/v7)... (see ROOT tutorials).
+* Phlex design: [https://framework-r-d.github.io/phlex-design/](https://framework-r-d.github.io/phlex-design/) (conceptual design).
+* HDF5 chunking/compression: [https://docs.hdfgroup.org/](https://docs.hdfgroup.org/)...
