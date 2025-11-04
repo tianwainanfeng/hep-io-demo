@@ -1,0 +1,17 @@
+# Build directories
+build/
+
+# skip CI/testing now
+.github/
+
+# Data outputs
+data/
+
+# Python cache
+__pycache__/
+
+# C++ object files
+*.o
+*.so
+*.root
+
